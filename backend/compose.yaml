@@ -1,0 +1,12 @@
+name: budget-app-dev-env
+
+services:
+  db:
+    image: postgres
+    restart: on-failure
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: budget_app
+      POSTGRES_PASSWORD: budget_app
+    ports:
+      - 5432:5432

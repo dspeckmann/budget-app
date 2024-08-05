@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D8EACCE6-3DD6-4174-9B1F-C7A8FCBBE754}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgetApp", "src\BudgetApp\BudgetApp.csproj", "{20B799A4-5CD6-4901-9CF2-99514AC01F80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20B799A4-5CD6-4901-9CF2-99514AC01F80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20B799A4-5CD6-4901-9CF2-99514AC01F80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20B799A4-5CD6-4901-9CF2-99514AC01F80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20B799A4-5CD6-4901-9CF2-99514AC01F80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20B799A4-5CD6-4901-9CF2-99514AC01F80} = {D8EACCE6-3DD6-4174-9B1F-C7A8FCBBE754}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB2BD4B4-47E8-4859-BD60-08672AEB3E4C}
+	EndGlobalSection
+EndGlobal
